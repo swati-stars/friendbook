@@ -13,7 +13,7 @@ const adminRoutes = require('./routes/adminRoutes');
 // Middleware (keep these)
 const allowedOrigins = process.env.NODE_ENV === 'production'
     ? [process.env.FRONTEND_URL]
-    : ['http://localhost:5173', 'http://127.0.0.1:5173'];
+    : ['http://friendbook-dx9o.onrender.com', 'http://127.0.0.1:5173'];
 
 if (process.env.NODE_ENV === 'production') {
     console.log('FRONTEND_URL (Production):', process.env.FRONTEND_URL);
