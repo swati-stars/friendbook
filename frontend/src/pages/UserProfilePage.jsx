@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://friendbook-6x6d.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL || 'http://friendbook-dx9o.onrender.com';
 
 const UserProfilePage = () => {
   const [userData, setUserData] = useState(null);
