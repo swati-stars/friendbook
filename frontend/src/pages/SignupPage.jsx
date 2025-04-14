@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 // Use the VITE_ prefix for environment variables in Vite
-const API_URL = import.meta.env.VITE_API_URL || 'http://friendbook-6x6d.onrender.com'; // Your backend URL
+const API_URL = import.meta.env.VITE_API_URL || 'http://friendbook-dx9o.onrender.com'; // Your backend URL
 
 const SignupPage = () => {
   const [formData, setFormData] = useState({
